@@ -12,8 +12,12 @@ public class ElectricCar extends Car {
             this.batteryLevel = batteryLevel;
         }
     }
-}
 
+    @Override
+    public void describe() {
+        System.out.println("Brand: " + getBrand() + ", Color: " + getColor() + ", Speed: " + getSpeed() + ", Battery: " + getBatteryLevel());
+    }
+}
 
 
 

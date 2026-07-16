@@ -1,4 +1,4 @@
-public class Car {
+public abstract class Car {
 
         private String brand;
         private String color;
@@ -30,5 +30,6 @@ public class Car {
             }
         }
 
+public abstract void describe();
 
 }
